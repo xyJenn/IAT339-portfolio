@@ -1,0 +1,20 @@
+.projectBanner {
+  min-height: 50vh;
+  /* background-color: red; */
+  /* border: 1px black solid; */
+  background: url("../img/project_2/proposal_1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.project-title {
+  padding-bottom: 20vh;
+}
+
+.filled-content {
+  margin-top: 3rem;
+}
