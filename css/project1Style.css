@@ -1,7 +1,13 @@
 .projectBanner {
   min-height: 60vh;
   /* background-color: red; */
-  background: lightblue url("bench1.gif") no-repeat fixed center;
+  /* border: 1px black solid; */
+  background: url("../img/bench1.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  border: 1px black solid;
+.container {
+  background-color: red;
 }
