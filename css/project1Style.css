@@ -1,13 +1,20 @@
 .projectBanner {
-  min-height: 60vh;
+  min-height: 50vh;
   /* background-color: red; */
   /* border: 1px black solid; */
   background: url("../img/bench1.gif");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
-.container {
-  background-color: red;
+.project-title {
+  padding-bottom: 20vh;
+}
+
+.filled-content {
+  margin-top: 3rem;
 }
