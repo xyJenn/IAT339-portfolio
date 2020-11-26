@@ -1,0 +1,39 @@
+.banner {
+  position: relative;
+
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .left {
+  background-color: crimson;
+  min-height: 100vh;
+}
+
+.banner .right {
+  min-height: 100vh;
+}
+.intro {
+  margin: auto;
+  max-width: 70%;
+  margin-top: 40%;
+}
+
+/* PROJECT SECTION */
+.project {
+  background-color: lightcoral;
+}
+
+/* ABOUT SECTION */
+.about {
+  background-color: lightblue;
+}
+
+.aboutContainerL {
+  background-color: pink;
+}
+
+.aboutContainerR {
+  background-color: lightcyan;
+}

@@ -1,0 +1,5 @@
+.projectBanner {
+  min-height: 60vh;
+  background-color: red;
+  border: 1px black solid;
+}
