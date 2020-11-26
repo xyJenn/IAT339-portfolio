@@ -22,16 +22,16 @@
 
 /* PROJECT SECTION */
 .project {
-  background-color: lightcoral;
+  background-color: transparent;
 }
 
 /* ABOUT SECTION */
 .about {
-  background-color: lightblue;
+  background-color: transparent;
 }
 
 .aboutContainerL {
-  background-color: pink;
+  background-color: transparent;
 }
 
 .aboutContainerR {

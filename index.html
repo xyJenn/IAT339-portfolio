@@ -15,17 +15,22 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b0767c814c.js" crossorigin="anonymous"></script>
+
+
     <!-- Styling -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/indexStyle.css" />
     <link rel="stylesheet" href="css/navbar.css" />
-  
+   
 
     <title>Xiu Ying Chen Portfolio</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-ligh">
         <a class="navbar-brand ms-auto navbarLogo" href="#">Xiu Ying Chen</a>
         <!-- <button
           class="navbar-toggler"
@@ -37,7 +42,7 @@
           aria-label="Toggle navigation"
         > -->
         <button
-          class="navbar-toggler"
+          class="navbar-toggler hamburger"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -45,21 +50,22 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon hamburger"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
+              <a class="nav-link" href="#"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            
           </ul>
         </div>
       </nav>
@@ -83,13 +89,16 @@
     </section>
 
     <section class="section about" id = "about">
-      <h1 class="text-center sectionTitle">About</h1>
+      <div class="container">
+        <h1 class="text-center sectionTitle">About</h1>
+      </div>
+      
       <div class="container">
         <div class="row">
           <div class="col-sm-6 aboutContainer aboutContainerL">
             <div class="card">
               
-                <img class="card-img" src="img/card2.jpg" alt="Card image cap">
+                <img class="card-img" src="img/bench_2.jpeg" alt="Card image cap">
               
             </div>
           </div>
@@ -106,7 +115,9 @@
 
 
     <section class="section project" id = "projects">
-      <h1 class="text-center sectionTitle">Projects</h1>
+
+      <div class="container"><h1 class="text-center sectionTitle">Projects</h1></div>
+      
       <div class="container" >
         <div class="card-deck">
           <div class="card  " >
@@ -128,7 +139,39 @@
       </div>
     </section>
 
+    <div class="container text-center">
+      
+     
+        <h1>Contact Me</h1>
+        <p>
+Xiu Ying Chen
+        </p>
+        <p>
+Email: xy.jennychen@gmail.com
+        </p>
+        <p>
+Phone: 778-807-7672
+        </p>
+
+         
+          
+       
+        
+        <div class="container" style="padding: 10rem;">
+          <div class="social-menu">
+                    <ul>
+                      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                      <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                      <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+        </div>
+        
     
+
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
