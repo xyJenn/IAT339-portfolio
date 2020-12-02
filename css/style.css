@@ -1,3 +1,45 @@
+:root {
+  --main-txt-color: #333333;
+  --main-theme-color: rgb(160, 31, 56);
+  --sub-theme-color: rgb(226, 105, 129);
+}
+
+html {
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?#iefix") format("embedded-opentype"),
+    url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"),
+    url("WebFont.svg#webfont") format("svg");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  color: var(--main-txt-color);
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 body {
   /* padding: 0 5rem; */
   /* background: red; */
@@ -13,10 +55,17 @@ body {
 }
 
 .section {
-  padding: 5rem 0 6rem 0;
+  padding: 5rem 0 0 0;
   min-height: 100vh;
 }
 
+.subSectionHeading {
+  color: var(--sub-theme-color);
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
 /* section {
   min-height: 100vh;
 } */

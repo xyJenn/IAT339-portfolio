@@ -11,11 +11,6 @@
     url("WebFont.svg#webfont") format("svg");
 }
 
-:root {
-  --main-txt-color: #333333;
-  --main-theme-color: crimson;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
 
@@ -180,7 +175,7 @@ code {
 
 .button-nav3 {
   display: inline-block;
-  margin-right: 3rem;
+
   padding: 1rem 2rem;
   color: var(--main-txt-color);
   background-color: white;
@@ -232,6 +227,10 @@ button {
   background-color: var(--main-txt-color);
 }
 
+.imgAsLink {
+  max-width: 30rem;
+}
+
 #mcw_logo {
   background-color: black;
 }
@@ -248,6 +247,9 @@ a img:hover {
   opacity: 0.5;
 }
 
+.imgAsLink {
+  max-width: 25rem;
+}
 /* 
   BRAND COMPONENTS-------------------
 */
