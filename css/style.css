@@ -1,7 +1,7 @@
 :root {
   --main-txt-color: #333333;
-  --main-theme-color: rgb(160, 31, 56);
-  --sub-theme-color: rgb(226, 105, 129);
+  --main-theme-color: #a01f38;
+  --sub-theme-color: #e26981;
 }
 
 html {
@@ -20,6 +20,7 @@ body {
   font-family: "Montserrat", sans-serif;
 
   color: var(--main-txt-color);
+  padding-bottom: 20rem;
 }
 
 @include media-breakpoint-up(sm) {
@@ -40,10 +41,8 @@ body {
   }
 }
 
-body {
-  /* padding: 0 5rem; */
-  /* background: red; */
-  padding-bottom: 20rem;
+.myNavbar .myNavLink:hover {
+  color: var(--sub-theme-color);
 }
 
 .sectionTitle {

@@ -257,3 +257,26 @@ a img:hover {
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+.colours {
+  display: flex;
+  flex-wrap: wrap;
+}
+.colours > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  padding: 1rem;
+}
+.colour-1 {
+  background-color: #333333;
+  color: #fff;
+}
+.colour-2 {
+  background-color: #a01f38;
+}
+.colour-3 {
+  background-color: #e26981;
+}

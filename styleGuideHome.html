@@ -27,13 +27,12 @@
     <link rel="stylesheet" href="css/indexStyle.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/stylGuideHomePageStyling.css" />
-    
 
     <title>Xiu Ying Chen Portfolio Style Guide</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-ligh">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <a class="navbar-brand ms-auto navbarLogo" href="#"
           >Portfolio Style Guide</a
         >
@@ -59,30 +58,39 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+            <li class="nav-item">
+              <a class="nav-link myNavLink" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link myNavLink" href="#interactive_elements"
+                >Interactive Elements</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#interactive_elements">Interactive Elements</a>
+              <a class="nav-link myNavLink" href="#text_elements"
+                >Text Elements</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#text_elements">Text Elements</a>
+              <a class="nav-link myNavLink" href="#combined_elements"
+                >Conbined Elements</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#combined_elements">Conbined Elements</a>
-            </li>
-           
 
             <li class="nav-item">
-              <a class="nav-link" href="#branding_ideas">Branding Ideas</a>
+              <a class="nav-link myNavLink" href="#branding_ideas"
+                >Branding Ideas</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#assemble_brand_components">Assemble Brand components</a>
+              <a class="nav-link myNavLink" href="#assemble_brand_components"
+                >Assemble Brand components</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="styleGuideProjectPage.html">Project Page Template</a>
+              <a class="nav-link myNavLink" href="styleGuideProjectPage.html"
+                >Project Page Template</a
+              >
             </li>
           </ul>
         </div>
@@ -96,9 +104,10 @@
             <div class="intro text-center">
               <h1 class="display-3 text-center">Style Guide</h1>
               <p class="display-5 text-center">Portfolio Style Guide</p>
-              
-              <a role="button" class="button-nav3" href="index.html">Go to Portfolio</a>
-              
+
+              <a role="button" class="button-nav3" href="index.html"
+                >Go to Portfolio</a
+              >
             </div>
           </div>
           <!-- <div class="col-sm-6 right">
@@ -107,152 +116,146 @@
         </div>
       </div>
     </section>
-    
 
-     <!-- INTERACTIVE ELEMENTS SECTION // -->
-   
-      
-      <section class="container" id="interactive_elements">
-        <h1 class="text-center sectionTitle">Interactive Elements</h1>
-      
-      
-      
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+
+    <section class="container" id="interactive_elements">
+      <h1 class="text-center sectionTitle">Interactive Elements</h1>
 
       <!-- in-text Link // -->
       <section class="element">
         <h4 class="subSectionHeading">In-text link</h4>
-       
-        <p>Any questions please <a href = "#" > contact</a> us.</p>
-        <p> See prooduct <a href = "#">  details</a>. </p>
-        </section>
 
+        <p>Any questions please <a href="#"> contact</a> us.</p>
+        <p>See prooduct <a href="#"> details</a>.</p>
+      </section>
 
       <!-- Default Button styling section -->
       <section class="element">
         <h4 class="subSectionHeading">Navigation link</h4>
-          <div class= "nav_link_container container">
-            <div class ="row">
+        <div class="nav_link_container container">
+          <div class="row">
             <div class="box col-md-12">
-        
+              <h4>CSS selector:</h4>
+              <p>.button-nav1</p>
 
-                <h4>CSS selector:</h4>
-                <p>.button-nav1</p>
+              <h4>Sample code:</h4>
+              <code
+                >&lt;a href="#" class="button-nav1"&gt;Button 1&lt;/a&gt;</code
+              >
 
+              <h4>Rendered element:</h4>
 
-                <h4>Sample code:</h4>
-                <code>&lt;a href="#" class="button-nav1"&gt;Button 1&lt;/a&gt;</code>
+              <a class="button-nav1" href="#">Button 1</a>
+            </div>
+            <div class="box col-md-12">
+              <h4>CSS selector:</h4>
+              <p>.button-nav2</p>
 
-                <h4>Rendered element:</h4>
-                
+              <h4>Sample code:</h4>
+              <code
+                >&lt;a href="#" class="button-nav2"&gt;Button 2&lt;/a&gt;</code
+              >
 
+              <h4>Rendered element:</h4>
 
-                <a class="button-nav1" href="#">Button 1</a>
-         </div>
-        <div class= "box col-md-12">
-          <h4>CSS selector:</h4>
-                <p>.button-nav2</p>
+              <a class="button-nav2" href="#">Button 2</a>
+            </div>
+            <div class="box col-md-12">
+              <h4>CSS selector:</h4>
+              <p>.button-nav3</p>
 
+              <h4>Sample code:</h4>
+              <code
+                >&lt;a href="#" class="button-nav3"&gt;Button 3&lt;/a&gt;</code
+              >
 
-                <h4>Sample code:</h4>
-                <code>&lt;a href="#" class="button-nav2"&gt;Button 2&lt;/a&gt;</code>
+              <h4>Rendered element:</h4>
 
-                <h4>Rendered element:</h4>
-                
-            <a class="button-nav2" href="#">Button 2</a>
-        </div>
-        <div class= "box col-md-12">
-          <h4>CSS selector:</h4>
-                <p>.button-nav3</p>
-
-
-                <h4>Sample code:</h4>
-                <code>&lt;a href="#" class="button-nav3"&gt;Button 3&lt;/a&gt;</code>
-
-                <h4>Rendered element:</h4>
-                
-            <a class="button-nav3" href="#">Button 3</a>
-        </div>
-        </div>
+              <a class="button-nav3" href="#">Button 3</a>
+            </div>
+          </div>
         </div>
       </section>
-
 
       <section class="element">
         <h4 class="subSectionHeading">Submit/ Reset Buttons</h4>
-     
 
         <form action="/action_page.php" method="get">
-          <label >Contact Us</label> <br>
+          <label>Contact Us</label> <br />
 
           <!-- Text area from: https://www.aritzia.com/en/contact-us -->
-          <textarea class="input-textarea  messagelength w-100 mb3 required" id="dwfrm_contactus_message" name="dwfrm_contactus_message" rows="8" cols="40" placeholder="Message"></textarea>
-          <br>
+          <textarea
+            class="input-textarea messagelength w-100 mb3 required"
+            id="dwfrm_contactus_message"
+            name="dwfrm_contactus_message"
+            rows="8"
+            cols="40"
+            placeholder="Message"
+          ></textarea>
+          <br />
 
-          
-          <button type="button" class="button-nav1">Submit</button> 
-          
-          <button type="reset" value="Reset">Reset</button> 
-          <br> <br>
+          <button type="button" class="button-nav1">Submit</button>
 
-          
+          <button type="reset" value="Reset">Reset</button>
+          <br />
+          <br />
         </form>
-
       </section>
 
-       <!-- Source: https://www.w3schools.com/html/html_forms.asp -->
+      <!-- Source: https://www.w3schools.com/html/html_forms.asp -->
       <section class="element">
         <h4 class="subSectionHeading">Text Input Field with Label</h4>
-     
-                <h4>CSS selector:</h4>
-                <p>.label</p>
-                <p>.input</p>
 
+        <h4>CSS selector:</h4>
+        <p>.label</p>
+        <p>.input</p>
 
-                <h4>Sample code:</h4>
-                <code>&lt;label&gt; Search: &lt;/label&gt;</code>
+        <h4>Sample code:</h4>
+        <code>&lt;label&gt; Search: &lt;/label&gt;</code>
 
-                <code>&lt;input type="text" &gt; </code>
+        <code>&lt;input type="text" &gt; </code>
 
-                <h4>Rendered element:</h4>
+        <h4>Rendered element:</h4>
 
-                <label >Search:</label>
-                <input type="text" >
-         <br> <br>
-
-         
+        <label>Search:</label>
+        <input type="text" />
+        <br />
+        <br />
       </section>
-
 
       <section class="element">
         <h4 class="subSectionHeading">Radio Button With Label</h4>
 
+        <h4>CSS selector:</h4>
+        <p>.input</p>
+        <p>.label</p>
 
-         <h4>CSS selector:</h4>
-                <p>.input</p>
-                <p>.label</p>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;input type="radio" id="yes" name="agree" value="yes"&gt;
+        </code>
+        <code> &lt;label for="yes">Yes&lt;/label&gt; </code>
 
+        <h4>Rendered element:</h4>
 
-                <h4>Sample code:</h4>
-                <code>
-                    &lt;input type="radio" id="yes" name="agree" value="yes"&gt;
-               </code>
-                <code>
-                     &lt;label for="yes">Yes&lt;/label&gt;
-                </code>
+        <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio-->
+        <input type="radio" id="yes" name="agree" value="yes" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" id="no" name="agree" value="no" />
+        <label for="no">No</label><br />
 
-                <h4>Rendered element:</h4>
-  
-      
-      <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio-->
-          <input type="radio" id="yes" name="agree" value="yes">
-          <label for="yes">Yes</label><br>
-          <input type="radio" id="no" name="agree" value="no">
-          <label for="no">No</label><br>
+        <br />
+        <br />
 
-          <br> <br>
-
-         <p> Citation : <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio"> radio button with label</a> </p>
-      
+        <p>
+          Citation :
+          <a
+            href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio"
+          >
+            radio button with label</a
+          >
+        </p>
       </section>
 
       <!--Source: https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML#:~:text=To%20use%20image%20as%20a,add%20the%20height%20and%20width. -->
@@ -260,85 +263,74 @@
         <h4 class="subSectionHeading">Image as a Link</h4>
 
         <h4>CSS selector:</h4>
-                <p>.a .img</p>
-                
+        <p>.a .img</p>
 
+        <h4>Sample code:</h4>
+        <code>
+          &lt;a href ="#" target= "_bank"&gt; &lt;img src= "img/poster_1.png"
+          alt=" Together, Apart Social Distancing Bench product Poster" &gt;
+          &lt;/a&gt;
+        </code>
 
-                <h4>Sample code:</h4>
-                <code>
-                  &lt;a href ="#" target= "_bank"&gt; 
-        &lt;img src= "img/poster_1.png" alt=" Together, Apart Social Distancing Bench product Poster" &gt;
-        &lt;/a&gt;
-                   
-               </code>
-                
-
-                <h4>Rendered element:</h4>
-        <a href ="#" > 
-        <img src= "img/poster_1.png" alt=" Together, Apart Social Distancing Bench product Poster" class="imgAsLink" >
+        <h4>Rendered element:</h4>
+        <a href="#">
+          <img
+            src="img/poster_1.png"
+            alt=" Together, Apart Social Distancing Bench product Poster"
+            class="imgAsLink"
+          />
         </a>
-     </section>
+      </section>
+    </section>
 
-</section>
-
-    
-    
     <!-- // INTERACTIVE ELEMENTS SECTION -->
 
-
-    
     <!-- TEXT ELEMENTS SECTION // -->
     <section class="container" id="text_elements">
       <h1 class="text-center sectionTitle">Text Elements</h1>
 
       <section class="element">
-        <h1 class="sectionTitle" style= "border: none; margin-bottom:0">Heading</h1>
+        <h1 class="sectionTitle" style="border: none; margin-bottom: 0">
+          Heading
+        </h1>
         <h1 class="display-6">Sub-Heading</h1>
         <h4 class="subSectionHeading">Sub Setion Heading</h4>
-       
-
-  
-
-        
-                
-      
       </section>
 
       <section class="element">
         <h4 class="subSectionHeading">Paragraphs</h4>
-        <p> Using the concept of innovation by design we provide Electronics Engineering Solutions for tomorrow and Emerging Technologies for local an international customers. 
-
-We could help connecting your business to the technology resources you need. </p> 
+        <p>
+          Using the concept of innovation by design we provide Electronics
+          Engineering Solutions for tomorrow and Emerging Technologies for local
+          an international customers. We could help connecting your business to
+          the technology resources you need.
+        </p>
       </section>
 
       <section class="element">
         <h4 class="subSectionHeading">Numbered Lists</h4>
- 
 
         <ol>
-            <li>Step 1</li>
-            <li> Step 2</li>
-            <li> Step 3</li>
+          <li>Step 1</li>
+          <li>Step 2</li>
+          <li>Step 3</li>
         </ol>
-
       </section>
-
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
-
-
 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section class="container" id="combined_elements">
       <h1 class="text-center sectionTitle">Combined Elements</h1>
-  
 
       <section class="element">
         <h4 class="subSectionHeading">Main Navigation</h4>
-       
-        <nav class=" navbar-expand-lg  navbar-light bg-ligh">
-          <a class="navbar-brand ms-auto navbarLogo" href="index.html">Xiu Ying Chen</a>
-        
+
+        <nav class="navbar-expand-lg navbar-light bg-ligh">
+          <a class="navbar-brand ms-auto navbarLogo" href="index.html"
+            >Xiu Ying Chen</a
+          >
+
           <button
             class="navbar-toggler hamburger"
             type="button"
@@ -360,8 +352,6 @@ We could help connecting your business to the technology resources you need. </p
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
-           
-              
             </ul>
           </div>
         </nav>
@@ -369,20 +359,26 @@ We could help connecting your business to the technology resources you need. </p
 
       <section class="element">
         <h4 class="subSectionHeading">Project Section</h4>
-     <br><br>
+        <br /><br />
         <div class="container">
           <div class="row">
             <div class="col-sm-6 align-self-center">
               <h4 class="subSectionHeading">Goals and Design Consideration</h4>
-            
+
               <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id labore placeat perferendis aliquid nesciunt molestias harum quam quis iste debitis, iure, dicta nobis suscipit vitae sequi necessitatibus magnam eveniet quae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                labore placeat perferendis aliquid nesciunt molestias harum quam
+                quis iste debitis, iure, dicta nobis suscipit vitae sequi
+                necessitatibus magnam eveniet quae?
               </p>
               <p>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure quo libero illo ducimus vero accusamus. Porro reiciendis nobis exercitationem. Neque nemo aut quod vel placeat sapiente, quasi ducimus dolore.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+                iure quo libero illo ducimus vero accusamus. Porro reiciendis
+                nobis exercitationem. Neque nemo aut quod vel placeat sapiente,
+                quasi ducimus dolore.
               </p>
             </div>
-  
+
             <img
               src="img/location_1.jpg"
               class="img-fluid rounded col-sm-6"
@@ -390,183 +386,119 @@ We could help connecting your business to the technology resources you need. </p
             />
           </div>
         </div>
-
-
-
-
       </section>
 
       <section class="element">
-        <h4 class="subSectionHeading">Payment Form</h4>
-    
-        <input  type="text"  value="" autocorrect="off" placeholder="First Name">
-        <input  type="text"  value="" autocorrect="off" placeholder="Last Name"> <br> <br>
-        <input  type="text"  value="" autocorrect="off" placeholder="Street Address">
-        <input  type="text"  value="" autocorrect="off" placeholder="City"><br> <br>
-        <input  type="text"  value="" autocorrect="off" placeholder="Province">
-        <input  type="text"  value="" autocorrect="off" placeholder="Postal Code">
-        <input  type="text"  value="" autocorrect="off" placeholder="Country"><br> <br>
-
-        <input type="radio" id="credit_card" name="payment" value="credit_card">
-          <label for="crecit_card">Credit Card</label><br>
-          <input type="radio" id="paypal" name="payment" value="paypal">
-          <label for="paypal">Paypal</label><br><br>
-
-
-          <input  type="text"  value="" autocorrect="off" placeholder="Card Number"><br> <br>
-          <input  type="text"  value="" autocorrect="off" placeholder="MM/YY"><br> <br>
-          <input  type="text"  value="" autocorrect="off" placeholder="CVV"><br> <br>
-          <input  type="text"  value="" autocorrect="off" placeholder="Name on Card"><br> <br>
-          <button type="button" >Submit</button>
+        <h4 class="subSectionHeading">Project List</h4>
+        <br /><br />
+        <div class="container">
+          <div class="card-deck">
+            <div class="card">
+              <a href="styleGuideProjectPage.html" role="button"
+                ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+              /></a>
+            </div>
+            <div class="card">
+              <a href="styleGuideProjectPage.html" role="button"
+                ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+              /></a>
+            </div>
+            <div class="card">
+              <a href="styleGuideProjectPage.html" role="button"
+                ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+              /></a>
+            </div>
+            <div class="card">
+              <a href="styleGuideProjectPage.html" role="button"
+                ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+              /></a>
+            </div>
+            <div class="card">
+              <a href="styleGuideProjectPage.html" role="button"
+                ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+              /></a>
+            </div>
+            <!-- <div class="card">
+            <a href="#"
+              ><img class="card-img" src="img/card3.jpg" alt="Card image cap"
+            /></a>
+          </div> -->
+          </div>
+        </div>
       </section>
-
-      <section class="element">
-        <h4 class="subSectionHeading">Checkout Cart</h4>
-    
-        <p>DC-DC Converter – 120Vdc-24Vdc-1000W</p>
-        <p> <img src= "images/converter.png" width ="100px" height="auto" alt="converter image"</img>  $100</p>
-        
-        <br><br>
-        <p>Phase Charger</p>
-       <p> <img src= "images/phase_charger.jpeg" width ="100px" height="auto" alt="phase_charger image"</img> $100</p>
-        <br><br>
-         <h4 style="display: block;
-              font-size: 1em;
-              margin-top: 1.33em;
-              margin-bottom: 1.33em;
-              margin-left: 0;
-              margin-right: 0;
-              font-weight: bold;"> 
-              Total:       $200</h4>
-       
-
-        
-      </section>
-
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 
-
-
-
-        <!-- branding ideas // -->
-        <section class="container" id="branding_ideas">
-          <h1 class="text-center sectionTitle">Branding Ideas</h1>
-
-
-      
-      <section class="element">
-        <h4 class="subSectionHeading">What does the company offer?</h4>
-    
-       
-        <ul> 
-            <li>The Escudo Power designs Electronic Technologies</li>
-            <li> Specifically power conversion products and systems</li>
-            <li>Also developed medical devices for measuring vitals </li>
-            <li>clean energy </li>
-        </ul>
-        <h4> Quality Vision Statetment</h4>
-        <p> Our activity has built in sound and sustainable quality management functions that are guided by best practices.</p>
-        <h4> Quality Mission Statement</h4>
-        <p> We strive to maintain a high level of customer satisfaction through continuous assurance and improvements in our products and services by developing, documenting and maintaining a comprehensive quality management program.</p>
-        <br><br>
-        <p> Citation: Quality vision/mission <a href="https://web.archive.org/web/20180705093606/http://escudopower.ca/"> statements </a> </p>
-      </section>
-
-
-      
-      <section class="element">
-        <h4 class="subSectionHeading">Potential Customers</h4>
-   
-        <ul> 
-            <li>businessed that require/involves  energy/electrical development/products</li>
-            <li> according to their page on <a href =" https://www.apollo.io/companies/Escudo-Industries/5887f180f6512572fce91c9b"> Apollo</a> , they've worked for Schneider-Electric, Toyota, GM, Plug Power, Cellex Power, Bosch - Home Security Division</li>
-           
-        </ul>
-       
-      </section>
-
+    <!-- branding ideas // -->
+    <section class="container" id="branding_ideas">
+      <h1 class="text-center sectionTitle">Branding Ideas</h1>
 
       <section class="element">
-        <h4 class="subSectionHeading">Why buy from this company?</h4>
-
-
-        <ul> 
-            <li>lots of experience in the Field</li>
-            <li>knowledgeable</li>
-            <li> worked with various companies</li>
-           
-        </ul>
+        <h4 class="subSectionHeading">Who am I?</h4>
+        <p>
+          I am currently a student in School of Interactive Arts and Technology
+          in Simon Fraser University. I am interested in how people interact
+          with technology and people are affected by the evolving designs of
+          technology.
+        </p>
       </section>
 
+      <section class="element">
+        <h4 class="subSectionHeading">What am I Looking for?</h4>
+      </section>
     </section>
-     <!-- branding ideas END // -->
-
-
+    <!-- branding ideas END // -->
 
     <!-- brand components// -->
     <section class="container" id="assemble_brand_components">
       <h1 class="text-center sectionTitle">Assemble brand components</h1>
-  
 
-      
       <section class="element">
         <h4 class="subSectionHeading fonts">Fonts</h4>
-     =
+        =
 
         <section class="montserrat">
-         <h1 class="h1"> Montserrat Header 1</h1>
-         <h2 class="h2"> Montserrat Header 2</h2> 
-         <p class="italics"> Montserrat Italics</p>
-         <p class="bold"> Montserrat bold</p>
+          <h1 class="h1">Montserrat Header 1</h1>
+          <h2 class="h2">Montserrat Header 2</h2>
+          <p class="italics">Montserrat Italics</p>
+          <p class="bold">Montserrat bold</p>
         </section>
 
-        <p class="rob"> Roboto</p>
-        <p class ="ari"> Arial </p>
+        <p class="rob">Roboto</p>
+        <p class="ari">Arial</p>
 
-        <p> Citation: <a href= "https://fonts.google.com/specimen/Roboto?category=Sans+Serif,Display,Monospace&sidebar.open=true&selection.family=Roboto#standard-styles"> Montserrat</a>
-        <a href= "https://fonts.google.com/specimen/Roboto?category=Sans+Serif,Display,Monospace&sidebar.open=true&selection.family=Roboto#standard-styles"> Roboto</a></p>
-        
+        <p>
+          Citation:
+          <a
+            href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif,Display,Monospace&sidebar.open=true&selection.family=Roboto#standard-styles"
+          >
+            Montserrat</a
+          >
+          <a
+            href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif,Display,Monospace&sidebar.open=true&selection.family=Roboto#standard-styles"
+          >
+            Roboto</a
+          >
+        </p>
       </section>
 
-
-      
       <section class="element">
         <h4 class="subSectionHeading">Color Palette</h4>
-     
-        <img src= "file:///C:/Users/Jenny/Desktop/IAT%20339/Project%201%20%20Style%20Guide/images/color_palette.svg">
-        
 
-       
+        <div class="colours">
+          <div class="colour-1">#333333</div>
+          <div class="colour-2">#a01f38</div>
+          <div class="colour-3">#e26981</div>
+        </div>
       </section>
-
 
       <section class="element" id="imagery">
-        <h4 class="subSectionHeading">imagery, art direction</h4>
-     
-
-        <img src="images/ajw_cards.png">
-        <img src="images/siemens.png">
-        <img src="images/siemens_cards.png">
-        <p> Citation: <a href= "https://new.siemens.com/global/en.html"> siemens header image</a> </p>
-        <img src="images/logo.jpg">
-
+        <!-- <h4 class="subSectionHeading">imagery, art direction</h4> -->
       </section>
-
-
 
       <section class="element">
-        <h4 class="subSectionHeading">inspirational websites</h4>
-    
-
-        
-        <a href="http://www.mcw.com/Home" ><img src="images/mcw_logo.png" id= "mcw_logo"></a> <br>
-        <a href="https://www.ajwengineering.com/engineering-services/" ><img src="file:///C:/Users/Jenny/Desktop/IAT%20339/Project%201%20%20Style%20Guide/images/ajw_logo.svg" ></a>
-
+        <!-- <h4 class="subSectionHeading">inspirational websites</h4> -->
       </section>
-
-
-
     </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
