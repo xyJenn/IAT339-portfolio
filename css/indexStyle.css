@@ -15,9 +15,9 @@
   min-height: 100vh;
 }
 .intro {
-  margin: auto;
+  margin: auto auto;
   max-width: 70%;
-  margin-top: 40%;
+  margin-top: 20%;
 }
 
 /* PROJECT SECTION */
