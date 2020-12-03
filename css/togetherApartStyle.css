@@ -18,3 +18,8 @@
 .filled-content {
   margin-top: 3rem;
 }
+
+.myAuto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
