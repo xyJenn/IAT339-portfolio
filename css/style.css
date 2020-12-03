@@ -24,7 +24,6 @@ body {
   font-family: "Montserrat", sans-serif;
 
   color: var(--main-txt-color);
-  padding-bottom: 20rem;
 }
 
 @include media-breakpoint-up(sm) {
