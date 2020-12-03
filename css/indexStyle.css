@@ -27,7 +27,8 @@
 }
 
 .aboutText {
-  padding: 2rem 15rem;
+  /* padding: 2rem 15rem; */
+  max-width: 45rem;
 }
 
 /* PROJECT SECTION */
@@ -45,11 +46,6 @@
   max-width: 100%;
   height: auto;
   overflow: hidden;
-}
-
-.card:hover,
-.projectCardImg:hover {
-  /* opacity: 0.3; */
 }
 
 .benchCard {

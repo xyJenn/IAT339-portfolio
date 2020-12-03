@@ -6,8 +6,18 @@
   color: black;
 }
 
-.nav-link {
+.nav-link,
+.navbarLogo {
   color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.navbarLogo:hover,
+.nav-link:active,
+.navbarLogo:active {
+  color: var(--main-theme-color);
+  border-bottom: 3px var(--main-theme-color) solid;
 }
 
 .hamburger {
