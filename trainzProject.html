@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/indexStyle.css" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/styleGuideProjectPageStyle.css" />
     <link rel="stylesheet" href="css/trainzStyle.css" />
 
     <title>tRAINz</title>
@@ -29,15 +30,7 @@
         <a class="navbar-brand ms-auto navbarLogo" href="index.html"
           >Xiu Ying Chen</a
         >
-        <!-- <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        > -->
+
         <button
           class="navbar-toggler"
           type="button"
@@ -73,19 +66,22 @@
         </div>
       </nav>
     </header>
-    <div role="section" class="project-title">
-      <div
-        class="jumbotron jumbotron-fluid projectBanner d-flex align-items-end"
-      ></div>
-      <div class="container">
-        <h1 class="display-6">tRAINz REVISED</h1>
-        <p class="lead">Classic tRAINz revisioned</p>
-      </div>
+
+    <!-- BANNER -->
+    <div
+      class="jumbotron jumbotron-fluid projectBanner d-flex align-items-end"
+      roll="section"
+    ></div>
+
+    <!-- PROJECT PAGE TITLE -->
+    <div class="container project-title">
+      <h1 class="display-6">tRAINz</h1>
+      <p class="lead">A family friendly board game gamegame</p>
     </div>
 
     <div>
       <div class="container">
-        <h5>Contributers</h5>
+        <h4 class="subSectionHeading">Contributers</h4>
         <p style="margin-bottom: 0rem">
           Steven Kobrza · Keith Leung · Xiu Ying Chen · Julia Yee
         </p>
@@ -98,8 +94,8 @@
       <!-- GOAL AND DESIGN CONSIDERATION -->
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 align-self-center">
-            <h5>Game Overview</h5>
+          <div class="col-md-6 align-self-center">
+            <h4 class="subSectionHeading">Goal & Design Consideration</h4>
             <p>
               The objective of tRAINz is to travel along the tracks and obtain
               ores to trade gems with the merchant. Each gem is worth a
@@ -113,77 +109,176 @@
               appeal to a wide audience.
             </p>
           </div>
+          <div class="col-md-6 myAuto">
+            <img
+              src="img/project_2/playable_prototype.png"
+              class="img-fluid rounded"
+              alt="loading..."
+            />
+          </div>
+        </div>
+      </div>
 
+      <!-- HOW WE TACKLE THE PROBLEM -->
+      <div class="container filled-content">
+        <div class="row">
+          <div class="col-md-6 myAuto">
+            <img
+              src="img/project_2/production_mechanics.png"
+              class="img-fluid rounded"
+              alt="loading..."
+            />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h4 class="subSectionHeading">Game Overview</h4>
+            <p>
+              The objective of tRAINz is to travel along the tracks and obtain
+              ores to trade gems with the merchant. Each gem is worth a
+              different number of points. The goal is to trade with the merchant
+              and gain 10 points. The first player who reaches 10 points wins.
+            </p>
+            <p>
+              People fun after analyzing other family friendly board games like
+              the original Ticket to Ride, Monopoly, Clue, and others, we
+              concluded that they are relatively neutral in design, with aims to
+              appeal to a wide audience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- OBSERVATIONS -->
+      <div class="container filled-content">
+        <div class="row">
+          <div class="col-md-6 myAuto">
+            <h4 class="subSectionHeading">Game Overview</h4>
+            <p>
+              We saw two major categories of changes that would greatly improve
+              the state of our game. Firstly and most obviously, balance was an
+              issue. Designing a board game meant that we had a lot of control
+              over how the mechanics worked, without needing to worry about
+              coding and graphics. With freedom to add mechanics comes headaches
+              trying to balance them. We constantly fired ideas back and forth
+              at each other to patch up problems we noticed, but new balancing
+              issues arose.
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <p>
+              The second major problem was managing randomness. Occasionally,
+              each player had a shot to win the game. Other times, a player
+              would accelerate way past the others, or some players lagged
+              behind dramatically. The randomness in our game is a bit out of
+              control and needs to be toned down in order to tame the player
+              experience. For example, in one game, I had enough resources to
+              perform 10 actions in a turn. My opponent, who wasn’t so lucky,
+              drew over her hand and discarded half her hand. These actions were
+              completely up to luck, and caused her to have a bad experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONCLUSION -->
+      <div class="container filled-content">
+        <div class="row">
+          <div class="col-md-6 myAuto">
+            <h4 class="subSectionHeading">Game Overview</h4>
+            <p>
+              We learned that making a board game takes patience and a lot of
+              testing. You’re going to come up with great ideas, and then you’re
+              going to have to get rid of them. There might be some ideas you’re
+              not willing to let go of, even when a team member has proposed a
+              more functional alternative. We also learned how difficult it was
+              to balance. A game that is too simple may lack gameplay dynamics,
+              but a game that is sufficiently complex will require lots of
+              testing and balancing. This is why, according to veteran game
+              designers, board game developers pay top dollar to send their game
+              to experienced game testers multiple times to get feedback on
+              their game.
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <p>
+              It was surprisingly easy to get a working prototype into Tabletop
+              Simulator. However, we still felt like it was a barrier to testing
+              our concepts. We imagine that using placeholder pieces on a board
+              drawn on a piece of paper would be an easier way to test primitive
+              game concepts before moving forward with them. Additionally, it’s
+              easier to convey information on physical cards and surfaces.
+              Camera angles and screen resolution posed as problems for
+              legibility of written information. It would be easier to convey
+              game rules on a physical surface and face-to-face communication.
+              Finally, it wasn’t quite as fun to play board games online. The
+              social aspect of playing board games in person can’t be replaced
+              with virtual experiences (quite yet). We look forward to
+              potentially playing some of these games in person when school
+              opens up again.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- IN THE MAKING -->
+      <div class="container filled-content">
+        <h4 class="subSectionHeading">In The Making</h4>
+
+        <h6>Context Models</h6>
+        <div class="row">
+          <div class="col-sm-3"></div>
           <img
-            src="img/project_2/playable_prototype.png"
+            src="img/card3.jpg"
             class="img-fluid rounded col-sm-6"
+            alt="loading..."
+          />
+          <div class="col-sm-3"></div>
+        </div>
+
+        <h6 style="margin-bottom: 3rem">Physical Models</h6>
+        <div class="row">
+          <img
+            src="img/card3.jpg"
+            class="img-fluid rounded col-sm-4"
+            alt="loading..."
+          />
+          <img
+            src="img/card3.jpg"
+            class="img-fluid rounded col-sm-4"
+            alt="loading..."
+          />
+          <img
+            src="img/card3.jpg"
+            class="img-fluid rounded col-sm-4"
             alt="loading..."
           />
         </div>
       </div>
-
-      
-
-    <!-- MECHANICS -->
-    <div class="container filled-content">
-      <div class="row">
+      <div class="container">
+        <h6>Poster</h6>
         <img
-          src="img/project_2/production_mechanics.png"
-          class="img-fluid rounded col-sm-6"
+          src="img/card3.png"
+          class="img-fluid rounded col-sm-12"
           alt="loading..."
         />
-        <div class="col-sm-6 align-self-center">
-          <h5>Mechanics</h5>
-          <ul>
-            Primary Mechanics and How they Support Gameplay Activities
-
-            <li>Rolling dice: Players roll dice to move on the gameboard.</li>
-
-            <li>
-              Mining ores: Player collect ores when land on the respective tiles
-              Need ores to trade with merchant to win the game
-            </li>
-            <li>
-              Trade ores for gems with merchant: Each type of gem has a value
-              attached to it. First to accumulate 10 points win.
-            </li>
-          </ul>
-        </div>
       </div>
-    </div>
 
-    <section>
-         <div class="container" style=>
-             <h5>Observation</h5>
-        <div class="row">
-            
-           <p class="col-sm-6">
-               We saw two major categories of changes that would greatly improve the state of our game. Firstly and most obviously, balance was an issue. Designing a board game meant that we had a lot of control over how the mechanics worked, without needing to worry about coding and graphics. With freedom to add mechanics comes headaches trying to balance them. We constantly fired ideas back and forth at each other to patch up problems we noticed, but new balancing issues arose. 
-           </p> 
-           <p class = "col-sm-6">
-            The second major problem was managing randomness. Occasionally, each player had a shot to win the game. Other times, a player would accelerate way past the others, or some players lagged behind dramatically. The randomness in our game is a bit out of control and needs to be toned down in order to tame the player experience. For example, in one game, I had enough resources to perform 10 actions in a turn. My opponent, who wasn’t so lucky, drew over her hand and discarded half her hand. These actions were completely up to luck, and caused her to have a bad experience.
-
-
-           </p>
-        </div>
-    </div>
-
-    <div class="container" style="margin-top: 5rem;">
-        <h5>Conclusion</h5>
-        <div class="row">
-            
-            <p class = "col-sm-6">
-                We learned that making a board game takes patience and a lot of testing. You’re going to come up with great ideas, and then you’re going to have to get rid of them. There might be some ideas you’re not willing to let go of, even when a team member has proposed a more functional alternative. We also learned how difficult it was to balance. A game that is too simple may lack gameplay dynamics, but a game that is sufficiently complex will require lots of testing and balancing. This is why, according to veteran game designers, board game developers pay top dollar to send their game to experienced game testers multiple times to get feedback on their game. 
-            </p>
-            <p class = "col-sm-6">
-                It was surprisingly easy to get a working prototype into Tabletop Simulator. However, we still felt like it was a barrier to testing our concepts. We imagine that using placeholder pieces on a board drawn on a piece of paper would be an easier way to test primitive game concepts before moving forward with them. Additionally, it’s easier to convey information on physical cards and surfaces. Camera angles and screen resolution posed as problems for legibility of written information. It would be easier to convey game rules on a physical surface and face-to-face communication. Finally, it wasn’t quite as fun to play board games online. The social aspect of playing board games in person can’t be replaced with virtual experiences (quite yet). We look forward to potentially playing some of these games in person when school opens up again.
-
-            </p>
-            
-        </div>
-    </div>
+      <!-- CONCLUSION -->
+      <div class="container filled-content">
+        <h4 class="subSectionHeading">Conclusion</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          debitis aperiam. Voluptatem esse harum alias, quod at odit, modi
+          beatae tempore fuga iure in. Magnam ratione laborum quidem dolore
+          laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Repellat eum beatae tempora cum doloribus saepe nam at eaque velit
+          dicta quam provident, error iure porro nisi quibusdam est?
+          Repellendus, nemo. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Nam, et omnis vel tempore ipsam sunt! Iste tempora, praesentium
+          nobis beatae, nesciunt doloremque exercitationem ipsam reprehenderit
+          minima minus maiores? Quia, perspiciatis?
+        </p>
+      </div>
     </section>
-   
 
     <!-- Optional JavaScript; choose one of the two! -->
 

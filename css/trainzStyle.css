@@ -9,12 +9,18 @@
 
   padding-bottom: 0%;
   margin-bottom: 0%;
+  border-bottom: 2px var(--trainz-theme-color) solid;
 }
 
-.project-title {
+/* .project-title {
   padding-bottom: 20vh;
 }
 
 .filled-content {
   margin-top: 3rem;
+} */
+
+.subSectionHeading {
+  color: var(--trainz-txt-color);
+  font-weight: 900;
 }
