@@ -1,25 +1,17 @@
 .projectBanner {
   min-height: 55vh;
-  background-image: url("../img/card3.jpg");
-  /* background: url("../img/bench_1.gif"); */
+
+  background: url("../img/bench_1.gif");
+
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
   padding-bottom: 0%;
   margin-bottom: 0%;
+  border-bottom: 2px var(--bench-theme-color) solid;
 }
 
-.project-title {
-  margin-top: 4rem;
-  margin-bottom: 8rem;
-}
-
-.filled-content {
-  margin-top: 3rem;
-}
-
-.myAuto {
-  margin-top: auto;
-  margin-bottom: auto;
+.subSectionHeading {
+  color: var(--bench-txt-color);
+  font-weight: 900;
 }

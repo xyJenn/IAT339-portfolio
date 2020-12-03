@@ -77,7 +77,7 @@
 }
 
 .benchText > h6 {
-  color: #90acac;
+  color: var(--bench-txt-color);
   font-size: 1.2rem;
   font-weight: bolder;
 }
